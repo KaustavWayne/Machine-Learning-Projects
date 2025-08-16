@@ -48,7 +48,7 @@ based on demographic, travel, and spending behavior data.
    - Spending behavior comparisons (Transported vs Not)  
    - Cabin & group insights  
 
-   ![EDA Example](figures/eda_plot.png)  
+   \![EDA Example](figures/eda_plot.png)  
 
 2. **Feature Engineering**  
    - Splitting `Cabin` into `Deck`, `Number`, `Side`  
