@@ -48,27 +48,27 @@ based on demographic, travel, and spending behavior data.
    - Spending behavior comparisons (Transported vs Not)  
    - Cabin & group insights  
 
-   \![EDA Example](figures/eda_plot.png)  
+   
 
 2. **Feature Engineering**  
    - Splitting `Cabin` into `Deck`, `Number`, `Side`  
    - Creating `GroupSize` from `PassengerId`  
    - Aggregating spending into `TotalSpending`  
 
-   ![Feature Engineering](figures/feature_eng.png)  
+   
 
 3. **Modeling & Evaluation**  
    - Baseline: Logistic Regression  
    - Tree Models: Random Forest, XGBoost, LightGBM  
    - Final model achieved **~79–80% accuracy**  
 
-   ![Model Results](figures/model_results.png)  
+    
 
 4. **Submission**  
    - Generated `submission.csv` with predictions in the required Kaggle format  
    - Submitted to leaderboard ✅  
 
-   ![Leaderboard](figures/leaderboard.png)  
+   
 
 ---
 
