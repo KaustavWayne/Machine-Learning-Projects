@@ -1,7 +1,7 @@
 # 🤖 MACHINE LEARNING PROJECT
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Machine-Learning-green?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="Machine Learning Logo" width="400"/>
+  <img src="https://img.shields.io/badge/Machine-Learning-green?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="Machine Learning Logo" width="600"/>
 </p>
 
 <p align="center">
