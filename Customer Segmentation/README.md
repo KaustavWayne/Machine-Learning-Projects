@@ -1,10 +1,14 @@
 # 🛍️ Customer Segmentation with KMeans Clustering  
 
 ## 📌 Overview  
-This project applies **KMeans clustering** on a customer dataset to segment users into meaningful groups based on **income** and **spending score**. The analysis is wrapped in an **interactive Streamlit app**, allowing businesses to:  
+This project applies **KMeans clustering** on a [Customer Segmentation Dataset](https://www.kaggle.com/datasets/vishakhdapat/customer-segmentation-clustering) 
+to segment users into meaningful groups based on **income** and **spending score**.  
+
+The analysis is wrapped in an **interactive Streamlit app**, allowing businesses to:  
 - Explore customer clusters visually  
 - Predict which segment a new customer belongs to  
 - Gain data-driven insights for targeted marketing strategies  
+
 
 ---
 
@@ -95,3 +99,4 @@ streamlit run app.py
 > 💡 "Code less. Think more."  
 > 📊 "Clustering is not just grouping data, it’s grouping people’s behavior."  
 > 🚀 "Turning raw numbers into real business stories."  
+
