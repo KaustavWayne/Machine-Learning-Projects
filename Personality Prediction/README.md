@@ -55,19 +55,22 @@ The model is trained using a Kaggle dataset (Playground Series S5E7) and provide
 git clone https://github.com/yourusername/personality-predictor.git
 cd personality-predictor
 Install dependencies:
-
-bash
+```
+```bash
 Copy code
 pip install -r requirements.txt
 Run the Streamlit app:
-
-bash
+```
+```bash
 Copy code
 streamlit run app.py
 Input your details and click Predict to see your personality type.
 
-🖼️ Demo Screenshot
+```
+
+# 🖼️ Demo Screenshot
 <p align="center"> <img src="https://raw.githubusercontent.com/yourusername/personality-predictor/main/demo_screenshot.png" alt="Demo Screenshot" width="700"/> </p>
-🧑‍💻 Author
-Kaustav Roy Chowdhury
-Data Scientist | ML Enthusiast | Streamlit Developer
+# 🧑‍💻 Author
+- **Kaustav Roy Chowdhury**
+
+- Data Scientist | ML Enthusiast | Streamlit Developer
