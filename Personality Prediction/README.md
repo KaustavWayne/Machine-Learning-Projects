@@ -68,15 +68,9 @@ Input your details and click Predict to see your personality type.
 
 ```
 
-# 🖼️ Demo Screenshot
-<p align="center">
-  <img src="https://raw.githubusercontent.com/yourusername/personality-predictor/main/demo_screenshot.png" alt="Demo Screenshot" width="700"/>
-</p>
-
----
-
 # 🧑‍💻 Author
 **Kaustav Roy Chowdhury**  
 Data Scientist | ML Enthusiast | Streamlit Developer
+
 
 
