@@ -1,106 +1,85 @@
-# 🤖 MACHINE LEARNING PROJECT
+# Bank Subscription Predictor 💰
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Machine-Learning-green?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="Machine Learning Logo" width="600"/>
+  <img src="https://img.shields.io/badge/Bank_Subscription_Predictor-LightBlue?style=for-the-badge&logo=streamlit&logoColor=white" alt="Bank Subscription Predictor" width="600"/>
 </p>
 
 <p align="center">
-  <em>"The goal is not to build models. The goal is to solve problems with models."</em>
+  <a href="https://www.kaggle.com/competitions/playground-series-s5e8/data">
+    <img src="https://img.shields.io/badge/Dataset-Kaggle%20S5E8-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle Dataset"/>
+  </a>
+</p>
+
+<p align="center">
+  <em>"Predict whether a client will subscribe to a bank term deposit using Machine Learning and Streamlit!"</em>
 </p>
 
 ---
 
-## 🚀 Overview  
-This repository contains a **Machine Learning project** focused on solving real-world problems using data-driven approaches.  
-The aim is to build **reproducible ML pipelines** with proper **EDA, feature engineering, model training, and evaluation**.  
+## Overview
+This project predicts whether a client will subscribe to a term deposit based on bank marketing data. It leverages a **full ML pipeline** that includes preprocessing of categorical and numerical features and an **XGBoost classifier** for accurate predictions. The model is deployed as an interactive **Streamlit web app** for real-time user input and predictions.
+
+## Dataset
+- Kaggle: [Playground Series — Season 5, Episode 8 (Data)](https://www.kaggle.com/competitions/playground-series-s5e8/data)
 
 ---
 
-## 🎯 Objectives  
-- Perform **data cleaning & preprocessing**  
-- Apply **exploratory data analysis (EDA)**  
-- Engineer features for better model performance  
-- Train and evaluate **multiple ML algorithms**  
-- Use **hyperparameter tuning** to optimize results  
-- Visualize and interpret model performance  
+## Features
+- **Binary Features:** `default`, `housing`, `loan` (mapped to 0/1)  
+- **Ordinal Features:** `education`, `month` (encoded with a defined order)  
+- **Nominal Features:** `job`, `marital`, `contact`, `poutcome` (one-hot encoded)  
+- **Numerical Features:** `age`, `balance`, `day`, `duration`, `campaign`, `pdays`, `previous`  
+- **Target:** `y` (client subscription: yes/no)  
 
 ---
 
-## 🛠️ Tech Stack & Tools  
-- **Languages**: Python  
-- **Libraries**: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn  
-- **ML Models**: Regression, Classification, Ensemble Methods  
-- **Tools**: Jupyter Notebook, GitHub for version control  
-
----
-
-## 📂 Repository Structure  
+## Installation
 ```bash
-├── data/                # Raw & processed datasets
-├── notebooks/           # Jupyter notebooks with experiments
-├── scripts/             # Python scripts (EDA, preprocessing, training, etc.)
-├── models/              # Saved trained models
-├── visuals/             # Graphs, plots, performance charts
-├── requirements.txt     # Dependencies
-└── README.md            # Documentation
-```
+# Clone the repository
+git clone https://github.com/yourusername/bank-subscription-predictor.git
+cd bank-subscription-predictor
 
----
-
-## ⚡ Installation & Usage
-
-Clone the repository:
-```bash
-git clone https://github.com/your-username/your-ml-project.git
-cd your-ml-project
-```
-
-Install dependencies:
-```bash
+# Install dependencies
 pip install -r requirements.txt
+
+# Run the Streamlit app
+streamlit run app.py
 ```
 
-Run Jupyter Notebook or scripts for training/testing models:
-```bash
-jupyter lab
-# or
-python scripts/train.py
-```
+## How It Works
+1. The user inputs customer details via the Streamlit app.
+2. The pipeline automatically preprocesses inputs (binary mapping, ordinal & one-hot encoding, scaling).
+3. The trained XGBoost model predicts subscription (yes/no) and probability.
+4. The app displays results interactively.
 
----
+## Sample Screenshot
+<p align="center">
+  <img src="https://raw.githubusercontent.com/yourusername/bank-subscription-predictor/main/images/bank_app_screenshot.png" width="700"/>
+</p>
 
-## 📊 Workflow
-1. Data Preprocessing → Handle missing values, encoding, scaling  
-2. Exploratory Data Analysis (EDA) → Statistical summaries, visualizations  
-3. Feature Engineering → PCA, feature selection, transformations  
-4. Model Building → Train multiple ML models (Linear Regression, Decision Trees, Random Forest, XGBoost, etc.)  
-5. Evaluation → Accuracy, Precision, Recall, F1-Score, RMSE, Cross-validation  
-6. Hyperparameter Tuning → GridSearchCV, RandomizedSearchCV  
+## Model Evaluation
+The XGBoost model was evaluated using 5-fold cross-validation:
 
----
+| Metric | Score |
+|---|---|
+| Validation Accuracy | 0.88 |
+| Test Accuracy | 0.86 |
+| Fit Assessment | ✅ Good Fit |
 
-## 📈 Results & Insights
-- ✅ Achieved high performance with optimized models  
-- 📊 Visualized feature importance & error distributions  
-- 🔍 Derived business insights from predictions  
+## Tech Stack
+- Python 🐍
+- Scikit-learn 🛠️
+- XGBoost ⚡
+- Streamlit 🌐
+- Pandas & NumPy 📊
 
-(Replace with your project’s specific findings.)
+## Author
+Kaustav Roy Chowdhury  
+GitHub | LinkedIn
 
----
+## Dev Quotes
+> "All models are wrong, but some are useful." — George E. P. Box
 
-## 👨‍💻 Author
-**Kaustav Roy Chowdhury**  
-📧 your-email@example.com  
-🌐 LinkedIn | Portfolio
+> "In God we trust; all others must bring data." — W. Edwards Deming
 
----
-
-## 💬 Developer Quotes
-- 💡 "Algorithms are opinions embedded in code."
-- 🤖 "Machine learning is not magic, it's math + data + logic."
-- 📊 "Turning models into decisions, and decisions into impact."
-
----
-
-⭐ If you found this project useful, don’t forget to star the repo!
-```
+> "Premature optimization is the root of all evil." — Donald Knuth
