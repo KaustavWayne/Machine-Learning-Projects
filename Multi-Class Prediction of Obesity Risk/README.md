@@ -12,7 +12,7 @@
 
 ## 📖 Project Overview
 
-This project focuses on predicting obesity or cardiovascular disease risk categories using a synthetic dataset from the **Kaggle Playground Series S4E2** competition. The dataset contains demographic, lifestyle, and health-related features.
+This project focuses on predicting obesity or cardiovascular disease risk categories using a synthetic dataset from the **[Kaggle Playground Series S4E2](https://www.kaggle.com/competitions/playground-series-s4e2)** competition. The dataset contains demographic, lifestyle, and health-related features.
 
 **Key Objectives:**
 - Classify individuals into risk categories (`NObeyesdad`)
@@ -109,12 +109,3 @@ submission.to_csv("submission.csv", index=False)
   <em>“Predicting health risks intelligently using Machine Learning pipelines!”</em>
 </p>
 ```
-
-### Key Improvements:
-1. **Structured Tables**: Better readability for technologies and dataset files.
-2. **Consistent Formatting**: Uniform headers and bullet points.
-3. **Code Block**: Properly formatted Python snippet for submission.
-4. **Visual Hierarchy**: Clear section breaks with emojis.
-
----
-
