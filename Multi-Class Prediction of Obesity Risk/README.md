@@ -1,6 +1,3 @@
-Here's your markdown-formatted content with improved structure and readability:
-
-```markdown
 # 🥗 Obesity & CVD Risk Predictor
 
 <p align="center">
@@ -120,3 +117,4 @@ submission.to_csv("submission.csv", index=False)
 4. **Visual Hierarchy**: Clear section breaks with emojis.
 
 ---
+
