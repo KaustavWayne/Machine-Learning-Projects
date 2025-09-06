@@ -88,7 +88,9 @@ python rainfall_prediction.py
 
 - Deploy using **Streamlit / Flask** for live predictions  
 - Hyperparameter tuning with **GridSearchCV**  
-- Feature engineering using domain weather knowledge  
+- Feature engineering using domain weather knowledge
+
+```
 
 ---
 
@@ -99,3 +101,4 @@ python rainfall_prediction.py
 <p align="center"> 
   <em>"Code is like rainfall – sometimes it floods you with bugs, but when it flows right, it nourishes the world 🌧️💻"</em> 
 </p>
+
