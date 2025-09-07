@@ -55,27 +55,34 @@ venv\Scripts\activate      # Windows
 
 # Install dependencies
 pip install -r requirements.txt
-🖥️ Usage
-bash
+
+```
+
+## 🖥️ Usage
+
+```bash
 Copy code
 # Run the Streamlit app
 streamlit run app.py
+```
+
 Enter a tweet in the textbox, and the model will classify it into:
 ✅ Positive | ❌ Negative | 😐 Neutral
 
-📊 Model Performance
+# 📊 Model Performance
 Model	Accuracy	Precision
 Naive Bayes (MNB)	79%	0.78
 Logistic Regression	82%	0.81
 Random Forest	80%	0.79
 Voting Classifier	84%	0.83
 
-🚀 Deployment
+#🚀 Deployment
 🌐 Streamlit Cloud
 
 ☁️ Heroku / AWS / GCP (optional future scope)
 
-👨‍💻 Author
+## 👨‍💻 Author
 Kaustav Roy Chowdhury
+
 
 <p align="center"> <em>"Code is like rainfall – sometimes it floods you with bugs, but when it flows right, it nourishes the world 🌧️💻"</em> </p> ```
